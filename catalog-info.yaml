@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deploy-vm-vega3
+  description: deploy-vm-vega-3
+  annotations:
+    backstage.io/kubernetes-id: deploy-vm-vega3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: neenspa
